@@ -1,4 +1,4 @@
-FROM java:11
+FROM myjava11:1.0.0
 
 COPY *.jar /app.jar
 
