@@ -1,6 +1,6 @@
 FROM myjdk11:1.0.0
 
-COPY /usr/local/jenkins/jenkins_home/workspace/demo5/target/spring-c-2.6.7.jar /app.jar
+COPY *.jar /app.jar
 
 CMD ["--server.port=8801"]
 
