@@ -1,6 +1,6 @@
 FROM myjdk11:1.0.0
 
-COPY *.jar /app.jar
+COPY ./springboot.jar /app.jar
 
 CMD ["--server.port=8801"]
 
