@@ -25,7 +25,7 @@ public class Demo {
     public String demo() {
         Date date = DateUtils.addSeconds(new Date(), 30);
         ScheduledFuture<?> schedule = taskScheduler.schedule(() -> {
-            System.out.println("执行定时任务-测试构建5");
+            System.out.println("执行定时任务-测试构建6");
         }, date);
         return "{222:222}";
     }
